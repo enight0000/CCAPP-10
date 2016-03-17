@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ccad.com.camera.MainActivity"
+    android:id="@+id/layout">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1"
+        android:layout_gravity="bottom"
+        android:background="@drawable/btn"
+        android:layout_below="@+id/btnjx"
+        android:layout_alignLeft="@+id/btnjx"
+        android:layout_alignStart="@+id/btnjx"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/btn_set"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/setting" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="当前状态:"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/background_light" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnovmi"
+        android:layout_gravity="bottom"
+        android:background="@drawable/btn_ovmi"
+        android:layout_marginBottom="48dp"
+        android:layout_above="@+id/btnjx"
+        android:layout_alignLeft="@+id/btnjx"
+        android:layout_alignStart="@+id/btnjx" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnjx"
+        android:layout_gravity="bottom"
+        android:background="@drawable/btn_jx"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
